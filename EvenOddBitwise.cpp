@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 bool isEven(int num){
-    if(num%2==0){
+    if((num&1) == 0){
         return true;
     }
     else{
