@@ -1,8 +1,9 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 bool Prime(int num){
-    for(int start=2;start<num;start++){
+    for(int start=2;start<sqrt(num);start++){
         if(num%start==0){
             return false;
         }
