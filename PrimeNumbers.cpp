@@ -16,7 +16,7 @@ int main(){
     int num;
     cout<<"Enter the value of num";
     cin>>num;
-    for(int n=1;n<num;n++){
+    for(int n=2;n<=num;n++){
         int result = isPrime(n);
         if(result){
             cout<<n<<" is Prime Number"<<endl;
