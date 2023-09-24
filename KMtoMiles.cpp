@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-float KMtoMiles(int km){
+float KMtoMiles(float km){
     float miles = km*0.62137;
     return miles;
 }
