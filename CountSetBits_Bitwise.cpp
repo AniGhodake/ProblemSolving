@@ -5,7 +5,7 @@ int countBit(int num){
     int bit= 0;
     while(num){
         bit = (num & 1);
-        if(bit==1){
+        if(bit){
             count++;
         }
         num = num>>1;
