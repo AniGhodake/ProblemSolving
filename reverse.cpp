@@ -17,4 +17,4 @@ int main(){
     cin>>num;
     int rev = reverse(num);
     cout<<"Reverse Number of "<<num<<" is "<<rev<<endl;
-    }
+}
