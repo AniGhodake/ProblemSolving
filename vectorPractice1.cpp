@@ -96,7 +96,4 @@ int main(){
     cout<<c.size();
     cout<<endl;
     cout<<c.capacity();
-
-
-
 }
