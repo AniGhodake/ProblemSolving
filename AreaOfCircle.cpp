@@ -8,10 +8,10 @@ float calculateArea(float radius){
 
 }
 int main(){
-    float radius;
-    cout<<"Enter the Value of Radius"<<endl;
-    cin>>radius;
-    float area =  calculateArea(radius);
-    cout<<"Area of circle is : "<<area;
+    // float radius;
+    // cout<<"Enter the Value of Radius"<<endl;
+    // cin>>radius;
+    // float area =  calculateArea(radius);
+    // cout<<"Area of circle is : "<<area;
 
 }
