@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
-int countBit(int num){
-    int count =0;
-    int bit= 0;
-    while(num){
-        bit = (num & 1);
-        if(bit){
-            count++;
-        }
-        num = num>>1;
+// int countBit(int num){
+//     int count =0;
+//     int bit= 0;
+//     while(num){
+//         bit = (num & 1);
+//         if(bit){
+//             count++;
+//         }
+//         num = num>>1;
         
-    }
-    return count;
-}
+//     }
+//     return count;
+// }
 int main(){
     int num;
     cout<<"Enter the Number "<<endl;
