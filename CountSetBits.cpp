@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
-int countBit(int num){
-    int count =0;
-    int bit= 0;
-    while(num){
-        bit = num%2;
-        if(bit==1){
-            count++;
-        }
-        num = num/2;
-    }
-    return count;
-}
+// int countBit(int num){
+//     int count =0;
+//     int bit= 0;
+//     while(num){
+//         bit = num%2;
+//         if(bit==1){
+//             count++;
+//         }
+//         num = num/2;
+//     }
+//     return count;
+// }
 int main(){
     int num;
     cout<<"Enter the Number "<<endl;
