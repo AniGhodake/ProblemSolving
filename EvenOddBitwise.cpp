@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-bool isEven(int num){
-    if((num&1) == 0){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
+// bool isEven(int num){
+//     if((num&1) == 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
 int main(){
     int num;
     cout<<"Enter the Number"<<endl;
