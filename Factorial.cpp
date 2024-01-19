@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-int factorial(int num){
-    long long result=1;
-    for(int i=1;i<=num;i++){
-        result = result*i;
+// int factorial(int num){
+//     long long result=1;
+//     for(int i=1;i<=num;i++){
+//         result = result*i;
         
-    }
-    return result;
-}
+//     }
+//     return result;
+// }
 
 int main(){
     int num;
